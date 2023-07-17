@@ -23,6 +23,14 @@ class ContainerPage extends StatelessWidget {
             ),
             borderRadius: BorderRadius.circular(10),
           ),
+          child: Text(
+            "ONE",
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Colors.red,
+            ),
+          ),
         ),
       ),
     );
